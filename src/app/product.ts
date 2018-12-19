@@ -1,3 +1,5 @@
-/**
- * Created by david on 17/12/2018.
- */
+export interface Product {
+  name: string;
+  quantity: number;
+  found: number;
+}
